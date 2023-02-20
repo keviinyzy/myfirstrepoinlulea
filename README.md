@@ -175,7 +175,7 @@ sudo modprobe w1-therm</p>
 <p>Upon adding the file the git is now ready to be commited. The commit message will be displayed in the git website for the description of the file</p>
 
 <blockquote>
-<p>git commit -m &#39;<commit message>&#39;</p>
+<p>git commit -m &#39;commit message&#39;</p>
 </blockquote>
 
 <p>Once it is commited the file is ready to be pushed to the repository. After running the command, enter the credentials of your git account</p>
