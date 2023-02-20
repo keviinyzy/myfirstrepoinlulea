@@ -141,3 +141,58 @@ sudo modprobe w1-therm</p>
 <h3 id="toc_17">10-11 Feb</h3>
 
 <p>As we can display the real time value temperature from the temperature sensor to the terminal, we will now attempt to pass the temperature value to the webpage. Hence by modication of the webserver flask code and temperature sensor code, we were able to display the temperature and control the LED on the web browser.</p>
+
+<h2 id="toc_18">Week 5</h2>
+
+<h3 id="toc_19">14 Feb</h3>
+
+<p>Understanding the concept of how GIT works. Learning how to push files from the command terminal to the GIT Repository.</p>
+
+<p>We will cd into our foler then</p>
+
+<blockquote>
+<p>git init</p>
+</blockquote>
+
+<p>To add repository</p>
+
+<blockquote>
+<p>git remote add origin https://github.com/keviinyzy/myfirstrepoinlulea.git</p>
+</blockquote>
+
+<p>To check the status of the git we will use, by running this command we will get current status of the git</p>
+
+<blockquote>
+<p>git status</p>
+</blockquote>
+
+<p>Usually a new file added will be displayed untraced in the display terminal. So we have to add the file to be added before commiting it to git</p>
+
+<blockquote>
+<p>git add <file name></p>
+</blockquote>
+
+<p>Upon adding the file the git is now ready to be commited. The commit message will be displayed in the git website for the description of the file</p>
+
+<blockquote>
+<p>git commit -m &#39;<commit message>&#39;</p>
+</blockquote>
+
+<p>Once it is commited the file is ready to be pushed to the repository. After running the command, enter the credentials of your git account</p>
+
+<blockquote>
+<p>git push origin master</p>
+</blockquote>
+
+<h3 id="toc_20">15 Feb</h3>
+
+<p>Attempt to control the servo motor via the webserver. A servo motor consist of three wires. 5V power, signal and ground. We will connect the signal to pin 11. A servo motor works by sendind Pulse Width Modulation (PWN) through the signal wire.
+By using a code we found online. we were able to control the servo motor by sliding the slider in the webpage.</p>
+
+<h3 id="toc_21">16 Feb - 17 Feb</h3>
+
+<p>Attempted to incorporate the servo motor code with the existing code that we worked on so that the user could control LED, servo motor and view the temperature at the same time.</p>
+
+<h3 id="toc_22">18 Feb</h3>
+
+<p>Improving on the UI on the webserver by adding background colours, changing fonts size, types of buttons to beautify the webpage.</p>
